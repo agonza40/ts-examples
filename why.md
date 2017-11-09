@@ -1,0 +1,3 @@
+#Why use static typing?
+###
+###
