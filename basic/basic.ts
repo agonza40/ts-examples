@@ -18,3 +18,13 @@ let n: number = 0,
 let x = 10;
 
 x = 'alala'; // Compiler error because inferred type is number.
+
+// Checks like these can reduce bugs by up to 15%!
+// http://ttendency.cs.ucl.ac.uk/projects/type_study/documents/type_study.pdf
+
+// Use a type alias to give a new name to a type
+type Num = number;
+
+let y: Num = 1;
+
+// This will come in handy later
