@@ -28,3 +28,10 @@ type Num = number;
 let y: Num = 1;
 
 // This will come in handy later
+
+// Literal types
+let t: true = false;
+t = true;
+
+let z: 0 = 0;
+let zero: number = z;
