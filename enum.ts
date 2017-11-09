@@ -1,5 +1,5 @@
 
-enum NumberValues {
+export enum NumberValues {
     FIRST_VALUE,
     SECOND_VALUE,
     THIRD_VALUE = 19
