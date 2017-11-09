@@ -35,3 +35,6 @@ t = true;
 
 let z: 0 = 0;
 let zero: number = z;
+
+// Tuples - an array of a fixed sized with heterogeneous data
+let tuple: [number, string, boolean] = [1, 'a', true];
